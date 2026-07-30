@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fuller Farm offers fresh chicken and duck eggs in the Rome, Georgia area. Reserve your eggs online for local pickup.">
+  <title>Fuller Farm | Fresh Local Eggs in Rome, Georgia</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Fuller Farm home">
+        <img src="fuller-farm-logo.png" alt="" class="brand-logo">
+        <span>Fuller Farm</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Open navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="site-nav" aria-label="Main navigation">
+        <a href="#eggs">Eggs</a>
+        <a href="#about">About</a>
+        <a href="#gallery">See Our Farm</a>
+        <a href="#details">Pickup & Payment</a>
+        <a class="nav-cta" href="#reserve">Reserve Eggs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Small farm • Fresh eggs • Rome, Georgia</p>
+          <h1>From our flock to your table.</h1>
+          <p class="hero-lead">
+            Welcome to Fuller Farm, a family-owned mini farm offering fresh
+            chicken and duck eggs for local pickup.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#reserve">Reserve Your Eggs</a>
+            <a class="button button-secondary" href="#about">Meet Our Farm</a>
+          </div>
+
+          <div class="hero-points" aria-label="Farm highlights">
+            <span>Raised with care</span>
+            <span>Fresh local eggs</span>
+            <span>Cash at pickup</span>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <div class="logo-card">
+            <img src="fuller-farm-logo.png" alt="Fuller Farm logo featuring a dog, farm birds, and eggs">
+          </div>
+          <div class="floating-note">
+            <strong>Serving</strong>
+            <span>Rome, Georgia & nearby areas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products" id="eggs">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">Farm fresh</p>
+          <h2>Our eggs</h2>
+          <p>All eggs are sold in convenient six-packs.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-icon" aria-hidden="true">🦆</div>
+            <p class="product-type">Duck Eggs</p>
+            <h3>Duck Egg 6-Pack</h3>
+            <p>Rich, flavorful eggs that are wonderful for breakfast and baking.</p>
+            <div class="product-bottom">
+              <span class="price">$3.00</span>
+              <a href="#reserve" class="small-link">Reserve</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-icon" aria-hidden="true">🐔</div>
+            <p class="product-type">Chicken Eggs</p>
+            <h3>Small Egg 6-Pack</h3>
+            <p>Fresh small chicken eggs gathered from our much-loved flock.</p>
+            <div class="product-bottom">
+              <span class="price">$2.00</span>
+              <a href="#reserve" class="small-link">Reserve</a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-icon" aria-hidden="true">🥚</div>
+            <p class="product-type">Chicken Eggs</p>
+            <h3>Extra-Large Egg 6-Pack</h3>
+            <p>Extra-large eggs that are perfect for hearty meals and recipes.</p>
+            <div class="product-bottom">
+              <span class="price">$3.00</span>
+              <a href="#reserve" class="small-link">Reserve</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="availability-banner">
+          <div class="availability-icon" aria-hidden="true">🌿</div>
+          <div>
+            <strong>Availability changes naturally.</strong>
+            <p>Our hens and ducks lay on their own schedule, so quantities may vary from week to week.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-title">
+          <p class="eyebrow">Our mini farm</p>
+          <h2>Raised from babies and loved every day.</h2>
+        </div>
+
+        <div class="about-copy">
+          <p>
+            We are a small family-owned mini farm located near Rome, Georgia.
+            Our flock includes <strong>17 chickens, 7 ducks, 2 geese, and 2 turkeys</strong>.
+            We started with all of them as babies in January and February and have
+            loved raising them every step of the way.
+          </p>
+          <p>
+            We truly love our birds, and the money from every egg purchase goes
+            right back into caring for them through food, bedding, treats, and
+            improvements to their home.
+          </p>
+          <p>
+            Thank you for giving us a chance, supporting our small farm, and
+            helping us continue doing what we love.
+          </p>
+        </div>
+      </div>
+
+      <div class="container flock-strip">
+        <div><span>🐔</span><strong>17</strong><small>Chickens</small></div>
+        <div><span>🦆</span><strong>7</strong><small>Ducks</small></div>
+        <div><span>🪿</span><strong>2</strong><small>Geese</small></div>
+        <div><span>🦃</span><strong>2</strong><small>Turkeys</small></div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">Life at Fuller Farm</p>
+          <h2>See Our Farm</h2>
+          <p>Every member of our flock has been raised with love since they were babies. Here's a glimpse into life at Fuller Farm.</p>
+        </div>
+        <div class="farm-photo-grid">
+          <img src="geese.jpeg" alt="Our geese">
+          <img src="turkey.jpeg" alt="Our turkeys">
+          <img src="duck.JPG" alt="Our ducks">
+          <img src="ollie-turkey.jpeg" alt="Ollie with turkey">
+          <img src="baby-turkey.jpeg" alt="Baby turkey">
+          <img src="baby-ducks.jpeg" alt="Baby ducks">
+          <img src="penny-abi.jpeg" alt="Our chickens">
+          <div class="farm-photo-placeholder"><span>📷</span><p>More photos coming soon!</p></div>
+          <div class="farm-photo-placeholder"><span>🌾</span><p>Growing every day.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section details" id="details">
+      <div class="container info-grid">
+        <article class="info-card">
+          <span class="info-icon" aria-hidden="true">💵</span>
+          <h3>Payment Information</h3>
+          <p>
+            We kindly ask that all egg purchases be paid with
+            <strong>cash at pickup</strong>.
+          </p>
+          <p>Thank you for supporting our small farm!</p>
+        </article>
+
+        <article class="info-card">
+          <span class="info-icon" aria-hidden="true">🥚</span>
+          <h3>Egg Availability</h3>
+          <p>
+            Our hens and ducks lay on their own schedule, so availability may
+            vary from week to week. We recommend reserving your eggs in advance
+            to ensure we have them ready for you.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <span class="info-icon" aria-hidden="true">📍</span>
+          <h3>Pickup Information</h3>
+          <p>We proudly serve the <strong>Rome, Georgia</strong> area.</p>
+          <p>
+            After your reservation has been confirmed, we'll provide pickup
+            details and arrange a convenient pickup time.
+          </p>
+        </article>
+
+        <article class="info-card thank-you-card">
+          <span class="info-icon" aria-hidden="true">❤️</span>
+          <h3>Thank You</h3>
+          <p>
+            Every purchase helps us care for our flock by providing food,
+            bedding, treats, and improvements to their home.
+          </p>
+          <p>
+            Thank you for supporting Fuller Farm and giving our little farm the
+            opportunity to grow. We truly appreciate every customer!
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reserve" id="reserve">
+      <div class="container reserve-grid">
+        <div class="reserve-intro">
+          <p class="eyebrow">Order request</p>
+          <h2>Reserve your eggs</h2>
+          <p>
+            Send an order request and we'll contact you to confirm availability,
+            your total, and pickup details.
+          </p>
+
+          <div class="privacy-note">
+            <span aria-hidden="true">🔒</span>
+            <p>
+              Our private contact information is not displayed publicly.
+              Your details are only used to respond to your reservation.
+            </p>
+          </div>
+
+          <div class="order-summary-card">
+            <h3>Estimated order</h3>
+            <div id="order-summary" aria-live="polite">
+              <p>No eggs selected yet.</p>
+            </div>
+            <div class="estimated-total">
+              <span>Estimated total</span>
+              <strong id="estimated-total">$0.00</strong>
+            </div>
+            <small>Final availability will be confirmed before pickup.</small>
+          </div>
+        </div>
+
+        <!--
+          FORM SETUP:
+          Replace YOUR_FORM_ID below after creating a free Formspree form.
+          Example: action="https://formspree.io/f/abcdwxyz"
+        -->
+        <form
+          class="reservation-form"
+          action="https://formspree.io/f/xjgnzjyn"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="New Fuller Farm Egg Reservation">
+          <input type="hidden" name="estimated_total" id="form-total" value="$0.00">
+
+          <div class="form-row two-columns">
+            <label>
+              Your name
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+
+            <label>
+              Email address
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+          </div>
+
+          <label>
+            Phone number <span class="optional">(optional)</span>
+            <input type="tel" name="phone" autocomplete="tel">
+          </label>
+
+          <fieldset>
+            <legend>Select your eggs</legend>
+
+            <div class="quantity-row">
+              <div>
+                <strong>Duck Eggs</strong>
+                <span>6-pack • $3.00</span>
+              </div>
+              <label>
+                <span class="sr-only">Duck egg six-pack quantity</span>
+                <input class="quantity-input" type="number" name="duck_egg_6_packs" min="0" max="20" value="0" data-name="Duck Egg 6-Pack" data-price="3">
+              </label>
+            </div>
+
+            <div class="quantity-row">
+              <div>
+                <strong>Small Chicken Eggs</strong>
+                <span>6-pack • $2.00</span>
+              </div>
+              <label>
+                <span class="sr-only">Small chicken egg six-pack quantity</span>
+                <input class="quantity-input" type="number" name="small_chicken_egg_6_packs" min="0" max="20" value="0" data-name="Small Chicken Egg 6-Pack" data-price="2">
+              </label>
+            </div>
+
+            <div class="quantity-row">
+              <div>
+                <strong>Extra-Large Chicken Eggs</strong>
+                <span>6-pack • $3.00</span>
+              </div>
+              <label>
+                <span class="sr-only">Extra-large chicken egg six-pack quantity</span>
+                <input class="quantity-input" type="number" name="xl_chicken_egg_6_packs" min="0" max="20" value="0" data-name="XL Chicken Egg 6-Pack" data-price="3">
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="form-row two-columns">
+            <label>
+              Preferred pickup day
+              <input type="date" name="preferred_pickup_day">
+            </label>
+
+            <label>
+              Preferred pickup time
+              <select name="preferred_pickup_time">
+                <option value="">Select a time</option>
+                <option>Morning</option>
+                <option>Afternoon</option>
+                <option>Evening</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            Additional notes <span class="optional">(optional)</span>
+            <textarea name="message" rows="5" placeholder="Questions, special pickup needs, or anything else we should know"></textarea>
+          </label>
+
+          <label class="agreement">
+            <input type="checkbox" name="cash_payment_acknowledgement" value="Acknowledged" required>
+            <span>I understand that payment is cash only and due at pickup.</span>
+          </label>
+
+          <button class="button button-primary submit-button" type="submit">
+            Send My Reservation
+          </button>
+
+          <p class="form-note">
+            This is an order request, not an automatic confirmation. Fuller Farm
+            will contact you after checking availability.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="footer-brand" href="#home">Fuller Farm</a>
+        <p>Small farm. Fresh eggs. Big hearts.</p>
+      </div>
+      <div class="footer-right">
+        <p>Serving Rome, Georgia and surrounding areas</p>
+        <p>© <span id="year">2026</span> Fuller Farm</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
